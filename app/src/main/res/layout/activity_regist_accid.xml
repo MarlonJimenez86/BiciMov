@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/accide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:text="Nombre:">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txt_name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_toEndOf="@+id/txt_name"
+        android:layout_toRightOf="@+id/txt_name">
+    </EditText>
+
+    <TextView
+        android:id="@+id/texdir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:text="Dirección :">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/texdir"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_toEndOf="@+id/texdir"
+        android:layout_toRightOf="@+id/texdir">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texdir"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:text="Telefono :">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textel"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_toEndOf="@+id/textel"
+        android:layout_toRightOf="@+id/textel">
+    </EditText>
+
+    <TextView
+        android:id="@+id/texsuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textel"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:text="Suceso :">
+    </TextView>
+
+    <EditText
+        android:layout_width="288dp"
+        android:layout_height="190dp"
+        android:layout_alignTop="@+id/texsuc"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="30dp"
+        android:layout_toEndOf="@+id/texsuc"
+        android:layout_toRightOf="@+id/texsuc"></EditText>
+
+    <TextView
+        android:id="@+id/texadj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texsuc"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="185dp"
+        android:background="@color/white"
+        android:text="Adjunto :">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/texadj"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_toEndOf="@+id/texadj"
+        android:layout_toRightOf="@+id/texadj"></EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="331dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/editText2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/white"
+        android:text="Registrar" />
+
+</RelativeLayout>

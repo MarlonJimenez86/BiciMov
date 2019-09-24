@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ewsdf"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="290dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@color/white"
+        android:onClick="onClickReglament"
+        android:text="Reglamentación para ciclistas"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="290dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:onClick="onClickRuta"
+        android:text="Rutas recomendadas"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="290dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:background="@color/white"
+        android:onClick="onClickRegister"
+        android:text="Registro de accidentalidad"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="290dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickPhoneCall"
+        android:text="Llamar taller movil"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="290dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:background="@color/white"
+        android:onClick="onClickPublic"
+        android:text="Publique su bicicleta"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+
+</RelativeLayout>

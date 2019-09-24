@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="RUTAS RECOMENDADAS" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText6"
+        android:layout_marginTop="127dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Listado de rutas" />
+
+    <ScrollView
+        android:id="@+id/listR"
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        android:layout_alignTop="@+id/editText6"
+        android:layout_below="@+id/editText7"
+        android:layout_marginTop="245dp">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listR"
+        android:layout_marginTop="354dp"
+        android:onClick="onClickRecomend"
+        android:text="Recomendar una ruta" />
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

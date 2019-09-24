@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/publi"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/Public"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="PUBLIQUE SU BICICLETA" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Marca:"
+        android:layout_below="@+id/Public"
+        >
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_toEndOf="@+id/tv_name"
+        android:layout_toRightOf="@+id/tv_name">
+    </EditText>
+
+    <TextView
+        android:id="@+id/texfact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Factura :">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/texfact"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_toEndOf="@+id/texfact"
+        android:layout_toRightOf="@+id/texfact">
+    </EditText>
+
+    <TextView
+        android:id="@+id/texvalor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texfact"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Valor :">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/texvalor"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_toEndOf="@+id/texvalor"
+        android:layout_toRightOf="@+id/texvalor">
+    </EditText>
+
+    <TextView
+        android:id="@+id/texcontac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texvalor"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Contacto :">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/texcontac"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_toEndOf="@+id/texcontac"
+        android:layout_toRightOf="@+id/texcontac">
+    </EditText>
+
+    <TextView
+        android:id="@+id/texfotos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texcontac"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Fotos :">
+    </TextView>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="117dp"
+        android:layout_alignTop="@+id/texfotos"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_toEndOf="@+id/texfotos"
+        android:layout_toRightOf="@+id/texfotos">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texfotos"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="PUBLICAR" />
+
+
+</RelativeLayout>
